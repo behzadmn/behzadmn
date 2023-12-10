@@ -56,7 +56,7 @@ def chaikin_volatility_strategy(high, low, length=10, roc_length=12, trigger=0, 
     return signal
 
 # Example usage
-try
+try:
     root_url = 'https://api.binance.com/api/v1/klines'
     cryptos = {
         "cryptos": ["BTCUSDT" , "ETHUSDT", "BNBUSDT" , "SHIBUSDT", "SOLUSDT" , "LINKUSDT" , "LINAUSDT" , "LUNAUSDT" , "LUNCUSDT" , "AVAXUSDT" , "KAVAUSDT" , "ADAUSDT" , "DOTUSDT"]
