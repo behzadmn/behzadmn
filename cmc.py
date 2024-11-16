@@ -3,7 +3,7 @@ headers=''
 session = Session()
 session.headers.update(headers)
 
-limit=400
+limit=10000
 
 url_coin = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 # url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
