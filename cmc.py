@@ -24,11 +24,8 @@ try:
         datee=datetime.now()
         data = json.loads(response.text)['data']
         
-        # print(data)
-        for i in range(limit):
-            
-            symbol= data[i]['symbol']
-           
-            datee=datetime.now()
-            
-            symbol=symbol+'USDT'
+        print(data)
+        #for i in range(limit):
+        #    symbol= data[i]['symbol']
+        #    datee=datetime.now()
+        #    symbol=symbol+'USDT'
